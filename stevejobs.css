@@ -1,0 +1,46 @@
+div{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
+img {
+   width: 1247px;
+ 
+}
+#btn{
+    font-size: 35px;
+    
+}
+i{
+    font-size: 35px;
+}
+p{
+    color: whitesmoke;
+    width: 500px;
+    padding-left: 400px;
+}
+#bio{
+    font-size: 25px;
+}
+hr{
+    width: 60%;
+    text-align: center;
+}
+#contact{
+    text-align: right;
+}
+#me{
+   text-align: right;
+    color: white;
+    text-decoration: none;
+    padding-left: 750px;
+}
+#lin{
+   color: white;
+}
