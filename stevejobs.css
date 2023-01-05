@@ -1,44 +1,82 @@
-div {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding-top: 30px;
+.first,
+.second {
+  margin-left: 46%;
+}
+.second {
+  margin-top: 9px;
+}
+.pauseBtn {
+  color: red;
 }
 body {
   background-color: black;
   color: white;
 }
 img {
-  width: 1247px;
+  width: 30em;
+  margin-left: 29%;
 }
 #btn {
   font-size: 35px;
+  margin-top: 0.5%;
 }
-
 i {
   font-size: 35px;
 }
-p {
-  color: whitesmoke;
-  width: 500px;
-  padding-left: 400px;
-}
 #bio {
-  font-size: 25px;
-}
-hr {
-  width: 60%;
-  text-align: center;
+  font-size: 1em;
+  color: white;
+  margin-left: 27em;
 }
 #contact {
   text-align: right;
 }
 #me {
-  text-align: right;
   color: white;
   text-decoration: none;
-  padding-left: 750px;
 }
 #lin {
   color: white;
+  margin-left: 47.5%;
+}
+.description,
+.lastLine {
+  width: 30em;
+  margin-left: 27em;
+}
+.lastLine {
+  border: 1px solid white;
+}
+
+/* respponsive-ness */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .first,
+  .second {
+    margin-left: 14em;
+    width: 5em;
+  }
+  .second {
+    margin-top: 5px;
+  }
+  #btn {
+    margin-left: 4.9em;
+  }
+  img {
+    margin-left: 0.8em;
+  }
+  #bio {
+    color: aliceblue;
+    margin-left: 14.5em;
+  }
+  .description {
+    width: 20em;
+    margin-left: 7.6em;
+  }
+  .lastLine {
+    width: 20em;
+    margin-left: 7.5em;
+  }
+  #me {
+    margin-right: 1.8em;
+  }
 }
